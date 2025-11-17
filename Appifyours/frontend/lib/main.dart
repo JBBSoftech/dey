@@ -908,7 +908,7 @@ class _HomePageState extends State<HomePage> {
                             _filterProducts(value);
                           },
                           decoration: InputDecoration(
-                            hintText: 'search product',
+                            hintText: 'search k',
                             prefixIcon: const Icon(Icons.search),
                             suffixIcon: const Icon(Icons.filter_list),
                             border: OutlineInputBorder(
@@ -959,7 +959,7 @@ class _HomePageState extends State<HomePage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                'welcome',
+                                'welcome-',
                                 style: const TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
